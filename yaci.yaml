@@ -1,0 +1,9 @@
+steps:
+  - name: Hello
+    image: alpine
+    runs: |
+      echo "List"
+      ls -l
+
+      echo "Pwd"
+      pwd
